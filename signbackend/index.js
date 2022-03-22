@@ -10,7 +10,7 @@ mongoose.connect(process.env.DATABASE_ACCESS, () =>
   console.log("db is connected")
 );
 app.get("/", () => {
-  console.log("running");
+  console.log("running toii");
 });
 
 app.use(express.json());
