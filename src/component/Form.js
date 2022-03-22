@@ -24,7 +24,7 @@ function Form() {
   const handlesubmite = (e) => {
     e.preventDefault();
     axios
-      .post("http://localhost:4000/singup", {
+      .post("https://signbackend-new.vercel.app/singup", {
         fullName: fullname,
         username: username,
         email: email,
